@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Oscar;
+  src: url("../fonts/Oscar-regular.woff2") format("woff2"),
+  url("../fonts/Oscar-regular.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Oscar;
+  src: url("../fonts/Oscar-medium.woff2") format("woff2"),
+  url("../fonts/Oscar-medium.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Oscar;
+  src: url("../fonts/Oscar-semibold.woff2") format("woff2"),
+  url("../fonts/Oscar-semibold.woff") format("woff");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Oscar;
+  src: url("../fonts/Oscar-light.woff2") format("woff2"),
+  url("../fonts/Oscar-light.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Libre-Baskerville;
+  src: url("../fonts/LibreBaskerville-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Libre-Baskerville;
+  src: url("../fonts/LibreBaskerville-Bold.ttf") format("ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Libre-Baskerville;
+  src: url("../fonts/LibreBaskerville-Italic.ttf") format("ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: oscar-glyphs;
+  src: url("../fonts/Oscar-icons.woff2") format("woff2");
+}
+
+/* SANS-SERIF OSCAR FONT */
+.font-sans-regular, .font-sans-regular * {
+  font-family: Oscar, sans-serif;
+  font-weight: 600;
+}
+
+.font-sans-medium, .font-sans-medium * {
+  font-family: Oscar, sans-serif;
+  font-weight: 700;
+}
+
+.font-sans-semibold, .font-sans-semibold * {
+  font-family: Oscar, sans-serif;
+  font-weight: 800;
+}
+
+.font-sans-light, .font-sans-light * {
+  font-family: Oscar, sans-serif;
+  font-weight: 400;
+}
+
+/* SERIF - BASKERVILLE FONT */
+.font-serif-regular, .font-serif-regular * {
+  font-family: Libre-Baskerville, serif;
+}
+
+.font-serif-bold, .font-serif-bold * {
+  font-family: Libre-Baskerville, serif;
+  font-weight: bold;
+}
+
+.font-serif-italic, .font-serif-italic * {
+  font-family: Libre-Baskerville, serif;
+  font-style: italic;
+}
+
+/* ICONS */
+.icon {
+  font-size: 40px;
+  font-family: oscar-glyphs;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon.icon-oscar-logo::before {
+  content: "\F111";
+}
+
+.icon.icon-location::before {
+  content: "\F110";
+}
+
+.icon.icon-facebook::before {
+  content: "\F10B";
+}
+
+.icon.icon-twitter::before {
+  content: "\F119";
+}
+
+.icon.icon-youtube::before {
+  content: "\F11B";
+}
+
+.icon.icon-instagram::before {
+  content: "\F10D";
+}
